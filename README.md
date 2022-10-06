@@ -9,3 +9,22 @@ pennywise is a savings and investment app.
 4. Customers will also be able to set set goals that they want to acheive (like saving to buy a work computer)
 
 5. Customers will be able to see their transaction history (credits and debits)
+
+PLANNING
+1. Budget: $8,000
+2. Time: 1 month
+
+REQUIREMENTS
+1. Database
+2. Payment Gateway
+3. Email notifications
+
+TABS
+1. Home screen
+2. History
+3. Profile (logout button, and account details available here)
+4. Targets
+
+PROCESS FOR MAKING WITHDRAWAL
+1. Enter amount to withdraw (if fixed deposit time is completed, customer can withraw any both deposit and interest)
+2. Reqires transactions PIN
