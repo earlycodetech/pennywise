@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-// import { Theme } from "../components/Theme";
+import { Theme } from "../components/Theme";
 
 export const styles = StyleSheet.create({
     container:{
@@ -7,6 +7,14 @@ export const styles = StyleSheet.create({
     },
     header:{
         flex:1,
+    },
+    brandRow:{
+        
+    },
+    brandName:{
+        fontSize:Theme.fonts.fontSizePoint.h5,
+        color:Theme.colors.ui.brandPurple,
+        fontWeight:'bold'
     },
     body:{
         flex:3,

@@ -5,6 +5,8 @@ import * as Font from 'expo-font';
 import { Monoton_400Regular } from '@expo-google-fonts/monoton';
 import { Manrope_400Regular } from '@expo-google-fonts/manrope';
 import { styles } from '../styles/home';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
+import { faSignOut } from '@fortawesome/free-solid-svg-icons';
 
 export function Home ({navigation}) {
     const [appIsReady, setAppIsReady] = useState(false);
@@ -38,7 +40,7 @@ export function Home ({navigation}) {
             <View style={styles.container}>
                 <View style={styles.header}>
                     <View style={styles.brandRow}>
-                        <Text style={styles.brandName}>pennywise</Text>
+                        <Text style={[styles.brandName,{fontFamily:'Monoton_400Regular'}]}>pennywise</Text>
                         {/* icon here */}
                     </View>
                 </View>
