@@ -28,3 +28,9 @@ TABS
 PROCESS FOR MAKING WITHDRAWAL
 1. Enter amount to withdraw (if fixed deposit time is completed, customer can withraw any both deposit and interest)
 2. Reqires transactions PIN
+
+
+BOTTOM TABS
+1. Home
+2. Profile
+3. History
