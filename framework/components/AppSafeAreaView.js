@@ -10,6 +10,7 @@ export function AppSafeAreaView ({children}) {
 
 const styles = StyleSheet.create({
     safeArea:{
+        flex:1,
         marginTop:Platform.OS === 'android' ? StatusBar.currentHeight : null,
         marginHorizontal:10
     }

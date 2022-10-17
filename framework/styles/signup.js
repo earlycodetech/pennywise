@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
      
     },
     brandName:{
-        fontSize:Theme.fonts.fontSizePoint.h2,
+        fontSize:Theme.fonts.fontSizePoint.h4,
         color:Theme.colors.ui.brandPurple,
         fontWeight:'bold'
     },
@@ -21,7 +21,8 @@ export const styles = StyleSheet.create({
         marginVertical:Theme.sizes[3]
     },
     input:{
-        marginBottom:Theme.sizes[1]
+        marginBottom:Theme.sizes[1],
+        marginTop:Theme.sizes[2]
     },
     signAlt:{
         flexDirection:'row'
@@ -39,6 +40,10 @@ export const styles = StyleSheet.create({
         color:Theme.colors.text.quartenary,
         fontSize:10,
         textAlign:'center',
-        marginTop:Theme.sizes[6]
+        marginTop:Theme.sizes[3]
+    },
+    errorMessage:{
+        fontSize:Theme.fonts.fontSize.caption,
+        color:'red'
     }
 })
